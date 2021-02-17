@@ -1,0 +1,101 @@
+/* Estrutura do site
+------------------------------------ */
+body {
+	background: #d9d9d9 ;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+#container {
+    background: linear-gradient(to right, #4bd0cf, #0e2f3c);
+}
+
+a:link, a:active, a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #4bd0cf;
+}
+
+/* Logo 
+------------------------------------ */
+#logo {
+	width: 248px;
+	height: 10px;	
+	display: block;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+/* Barra de navegação 
+------------------------------------ */
+header {
+    margin: 0%;
+	padding: 25px ;
+	height: 55px;
+}
+
+nav ul {
+	list-style: none;
+	margin-right: 100px;
+	float: right;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a:link {
+	display: block;
+	margin-right: 30px;
+	text-transform: uppercase;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+	border-bottom: 1px solid #535858;
+}
+
+.space{
+    color: #012C4F;
+    border: 1px solid;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
+    height: 50px;
+}
+
+.box{
+    color:#4bd0cf;
+    background-color: #002a50;
+    border: 1px solid;    
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
+}
+
+/*CONTAINER2*/
+#container2{
+    background-color: white;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.avatar{
+    border-radius: 100%;
+    width: 5rem;
+    padding: 20px;
+}
+
+
+
+
+
+
+
