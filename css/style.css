@@ -18,6 +18,20 @@ a:hover {
 	color: #4bd0cf;
 }
 
+/* Flex styles -------------------------------------------------*/
+header {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (min-width: 700px) {
+   .leading {
+      display: flex;
+      align-items: center;
+    }
+  }
+  
+
 /* Logo 
 ------------------------------------ */
 #logo {
@@ -83,8 +97,8 @@ nav ul li a:hover {
     background-color: white;
     height: 150px;
     margin-top: 30px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .avatar{
@@ -92,6 +106,45 @@ nav ul li a:hover {
     width: 5rem;
     padding: 20px;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 60px 50px;
+    padding-top: 50px;
+    padding-left: 30px;    
+}
+
+.wrapperG {
+    display: grid;
+    grid-template-columns: 100px 100px;    
+}
+
+.status{
+    font-weight: bold;
+}
+
+/*CARDS*/
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+    padding-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+.containerCard{
+    background-color: white;
+    height: 150px;   
+}
+
+.wrapperCard {
+    display: grid;
+    grid-template-columns: 260px 260px 260px;      
+}
+
 
 
 
